@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Update a Record in a Table</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <p>Update the type of pass for a customer , given their customer ID:</p>
+    <form method="post" action="php/updateRecord.php">
+      <label>Customer ID</label> <input type="number" name="Customer_ID" /> <br />
+      <p>Change the pass to:</p>
+      <label>Type of Pass </label><input type="text" name="Type_Of_Pass" /> <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

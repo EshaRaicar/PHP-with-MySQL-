@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Update a Record in a Table</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form method="post" action="php/selectAllQuery.php">
+      <fieldset>
+        <legend>Display All Customers Details </legend>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <form method="post" action="php/selectLikeQuery.php">
+      <fieldset>
+        <legend>Display one customer's details whose name is </legend>
+        <label>Customers Name </label>
+        <input type="text" name="Customer_Name" /> <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+    <form method="post" action="php/selectWhereQuery.php">
+      <fieldset>
+        <legend>Display all Customer's who have a particular type of pass</legend>
+        <label>Type of Pass </label> <input type="text" name="Type_Of_Pass" /> <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
